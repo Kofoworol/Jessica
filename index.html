@@ -4,32 +4,47 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Frontend Mentor | Social links profile</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="favicon-32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div id="All">
-      <div><img src="images/avatar-jessica.jpeg" alt="a girl" /></div>
-      <h1>Jessica Randall</h1>
-      <p id="p1">London, united Kingdom</p>
-      <br />
-      <p>"front-end developer and avid reader"</p>
-      <div>
-        <nav>
-          <ul>
-            <li>GitHub</li>
-            <li>Frontend Mentor</li>
-            <li>LinkedIn</li>
-            <li>Twitter</li>
-            <li>Instagram</li>
-          </ul>
-        </nav>
+    <div id="all">
+      <div class="inter-all">
+        <div><img src="images/avatar-jessica.jpeg" alt="a girl" /></div>
+        <h1>Jessica Randall</h1>
+        <p id="p1">London, united Kingdom</p>
+        <br />
+        <p>"front-end developer and avid reader"</p>
+        <div>
+          <nav>
+            <ul>
+              <li id="y2">GitHub</li>
+              <li>Frontend Mentor</li>
+              <li>LinkedIn</li>
+              <li>Twitter</li>
+              <li>Instagram</li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </div>
     <style>
       img {
         border-radius: 50%;
       }
-      #All {
+      .inter-all {
         margin: 0px;
         text-align: center;
         color: aliceblue;
@@ -41,7 +56,7 @@
         list-style: none;
         padding: 0;
         margin: auto;
-        width: 200px;
+        width: 250px;
       }
       li {
         padding: 10px;
@@ -52,6 +67,27 @@
       }
       #p1 {
         color: yellow;
+      }
+      #y2 {
+        color: #413e3e;
+        background-color: rgb(225, 225, 25);
+      }
+
+      .inter-all {
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-variation-settings: "slnt" 0;
+      }
+      #all {
+        box-shadow: 2px 3px 7px black;
+        background-color: rgb(32, 30, 30);
+        border-radius: 5%;
+        margin: auto;
+        width: 30vw;
+        display: flex;
+        justify-content: center;
       }
     </style>
   </body>
