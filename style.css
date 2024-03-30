@@ -1,0 +1,54 @@
+img {
+  border-radius: 50%;
+}
+.inter-all {
+  text-align: center;
+  color: aliceblue;
+  box-shadow: 2px 3px 7px black;
+  background-color: rgb(32, 30, 30);
+  border-radius: 5%;
+  width: 400px;
+}
+Body {
+  background-color: black;
+}
+#container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+button {
+  width: 250px;
+  border: none;
+  margin: 5px;
+  height: 40px;
+  width: 250px;
+  border-radius: 5%;
+  background-color: #413e3e;
+}
+#button {
+  display: grid;
+  margin: auto;
+}
+#p1 {
+  color: yellow;
+}
+#y2 {
+  color: #413e3e;
+  background-color: rgb(225, 225, 25);
+}
+
+.inter-all {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
+#all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
