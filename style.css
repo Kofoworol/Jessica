@@ -8,6 +8,7 @@ img {
   background-color: rgb(32, 30, 30);
   border-radius: 5%;
   width: 400px;
+  padding: 20px;
 }
 Body {
   background-color: black;
@@ -48,5 +49,5 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  padding: 25px;
 }
